@@ -1,13 +1,11 @@
+/* General styling applicable to all  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* Styling for the header and company name at the top */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +22,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styling for the navigation at the top */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,10 +45,12 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+/* Setting the background color for the body container */
+body {
+    background-color: #d9dcd6;
 }
 
+/* Setting the styles for the main image */
 figure {
     height: 800px;
     width: 100%;
@@ -59,6 +60,29 @@ figure {
     background-position: center;
 }
 
+/* Setting the style for the main content box */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styling the section boxes within the main content */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling the images within the main content to float left or float right*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,30 +93,11 @@ figure {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
 .content img {
     max-height: 200px;
 }
 
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Setting the style for everything in the benefits section panel on the right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,6 +109,7 @@ figure {
     background-color: #2589bd;
 }
 
+/* Setting the style for the 3 boxes within the main benefit section */
 .benefits aside {
     margin-bottom: 32px;
     color: #ffffff;
@@ -120,6 +126,7 @@ figure {
     max-width: 150px;
 }
 
+/* Setting the style for the footer */
 footer {
     padding: 30px;
     clear: both;
