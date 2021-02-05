@@ -33,11 +33,4 @@ The following image shows the web application's appearance and functionality:
 ![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
 
 
-*EDIT HERE*
-
-Link to deloyed application: 
-
-Screenshot of application: 
-
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+Link to deloyed application: https://mackenzielc.github.io/homework-1/ 
